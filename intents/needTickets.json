@@ -1,0 +1,39 @@
+{
+  "id": "c8026695-510d-4082-a8a1-1f2dc148a80c",
+  "name": "needTickets",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Movies available are:",
+          "replies": [
+            "movieA",
+            "movieB",
+            "movieC"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Movies available are: MovieA, MovieB and MovieC. Which one would you like to watch?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533186704,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "0ca9c840-94f2-4836-88d9-930d21e6ec14",
+  "name": "movieB-seats",
+  "auto": true,
+  "contexts": [
+    "seats",
+    "movieB"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "26f0d3a9-07f6-4a83-8a1d-dff6bf5fe287",
+          "dataType": "@sys.number",
+          "name": "seats",
+          "value": "$seats",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533151025,
+  "fallbackIntent": false,
+  "events": []
+}

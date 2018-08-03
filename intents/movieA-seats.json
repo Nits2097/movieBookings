@@ -1,0 +1,40 @@
+{
+  "id": "7ba85aaf-8e6c-4bc3-a288-d256ce393329",
+  "name": "movieA-seats",
+  "auto": true,
+  "contexts": [
+    "seats",
+    "movieA"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6857c661-8ed2-4615-b16b-8209cebed223",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "seats",
+          "value": "$seats",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533140541,
+  "fallbackIntent": false,
+  "events": []
+}

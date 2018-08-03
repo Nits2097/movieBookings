@@ -1,0 +1,40 @@
+{
+  "id": "3ae0b3e3-e8c5-474e-b42b-f1966427ea39",
+  "name": "movieC-seats",
+  "auto": true,
+  "contexts": [
+    "seats",
+    "movieC"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c7d1fb7a-d365-47e1-a357-6f96e3dc2fa4",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "seats",
+          "value": "$seats",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533151210,
+  "fallbackIntent": false,
+  "events": []
+}

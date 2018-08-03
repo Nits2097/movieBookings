@@ -1,0 +1,44 @@
+{
+  "id": "c53fb59e-7c9f-4eec-9bb0-14720129807a",
+  "name": "movieB",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "seats",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "movieB",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "how many seats do you want to book?",
+            "how many seats do you need?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533150848,
+  "fallbackIntent": false,
+  "events": []
+}

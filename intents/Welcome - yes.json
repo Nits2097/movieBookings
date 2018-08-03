@@ -1,0 +1,46 @@
+{
+  "id": "93121b7e-66d0-4252-aec9-f5a296569a26",
+  "parentId": "a2844f6e-2eee-4d3c-914e-5149ccff7b16",
+  "rootParentId": "a2844f6e-2eee-4d3c-914e-5149ccff7b16",
+  "name": "Welcome - yes",
+  "auto": true,
+  "contexts": [
+    "Welcome-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Movies available are:",
+          "replies": [
+            "movieA",
+            "movieB",
+            "movieC"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Movies available are: MovieA, MovieB and MovieC. Which one would you like to watch?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533307604,
+  "fallbackIntent": false,
+  "events": []
+}

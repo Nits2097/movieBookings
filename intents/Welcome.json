@@ -1,0 +1,43 @@
+{
+  "id": "a2844f6e-2eee-4d3c-914e-5149ccff7b16",
+  "name": "Welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Hi would you like to book movie tickets?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hello, would you like to book movie tickets?",
+            "Hi, do you need to book movie tickets?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533150141,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

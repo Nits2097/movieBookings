@@ -1,0 +1,44 @@
+{
+  "id": "2cb07a0d-09a1-4c81-a4b3-2a822e95012e",
+  "name": "movieC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "seats",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "movieC",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "how many seats do you want to book?",
+            "how many seats do you need?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1533151307,
+  "fallbackIntent": false,
+  "events": []
+}
